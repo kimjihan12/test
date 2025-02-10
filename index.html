@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김지한의 소개 페이지</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1f1f1f;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 0;
+            background: #333;
+            position: relative;
+            z-index: 1;
+        }
+
+        header h1 {
+            font-size: 4em;
+            letter-spacing: 5px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.3em;
+            color: #ddd;
+        }
+
+        section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #ddd;
+        }
+
+        .projects ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 50px;
+        }
+
+        .projects ul li {
+            background-color: #444;
+            padding: 20px 30px;
+            margin: 0 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .projects ul li:hover {
+            transform: translateY(-10px);
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #bbb;
+            text-align: center;
+            padding: 40px 0;
+            font-size: 1em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .contact-info div {
+            margin: 0 20px;
+            font-size: 1.2em;
+            color: #ddd;
+        }
+
+        .contact-info div a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info div a:hover {
+            color: #1e90ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>김지한</h1>
+            <p>게임 개발자 & 디스코드 봇 개발자</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>대표 소계</h2>
+            <p>안녕하세요! 저는 다양한 봇을 만들고 있는 은하서버의 대표 김 지 한 이라고 합니다. </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>작업물</h2>
+            <ul>
+                <li>디스코드 봇 개발</li>
+                <li>웹사이트 디자인 및 개발</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>디스코드 친추</h2>
+            <div class="contact-info">
+                <div><a href="https://discord.com/users/1185514966682443796" target="_blank" rel="noopener noreferrer">디스코드: qorghksla#0000</a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 김지한.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
